@@ -1,0 +1,331 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    rosalindf (AVX2, FMA3, 2011 GB RAM)
+Command: iqtree -s Neo96_SNPs4phylo.min4.phy -pre Neo96_iqtree_SNPs -nt 8 -bb 1000 -m HKY+ASC -con
+Seed:    329388 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Mar 22 08:50:05 2022
+Kernel:  AVX+FMA - 8 threads (256 CPU cores detected)
+
+Reading alignment file Neo96_SNPs4phylo.min4.phy ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 96 sequences with 224812 columns, 221631 distinct patterns
+216507 parsimony-informative, 6078 singleton sites, 2227 constant sites
+                  Gap/Ambiguity  Composition  p-value
+   1  Nbry_MZ195912      11.36%    failed      0.43%
+   2  Nbry_MZ195913      11.57%    failed      0.05%
+   3  Nbry_MZ195914      11.55%    failed      0.27%
+   4  Nbry_MZ195915      11.70%    failed      0.36%
+   5  Nbry_MZ195916      10.34%    failed      0.05%
+   6  Nbry_MZ195930      10.27%    failed      0.13%
+   7  Nbry_MZ195931       9.56%    failed      0.24%
+   8  Nbry_MZ195932      10.27%    failed      0.33%
+   9  Nbry_MZ195933      10.19%    failed      0.04%
+  10  Nbry_MZ195934      10.06%    failed      0.02%
+  11  Nbry_MZ195935      11.69%    failed      2.92%
+  12  Nbry_MZ195967      10.11%    failed      1.55%
+  13  Nbry_MZ195968      10.33%    passed      9.91%
+  14  Nbry_MZ195969      10.38%    failed      1.76%
+  15  Nbry_MZ195970      10.54%    failed      0.28%
+  16  Nbry_MZ195972      10.71%    failed      0.72%
+  17  Nbry_MZ195974      10.35%    failed      2.00%
+  18  Nbry_MZ195975      10.39%    failed      4.80%
+  19  Nbry_MZ195976      10.25%    failed      2.46%
+  20  Nbry_MZ195977      10.74%    passed      7.38%
+  21  Nbry_MZ195978      10.43%    failed      2.23%
+  22  Nbry_MZ195979      10.12%    failed      1.02%
+  23  Nbry_MZ195980      10.48%    passed     15.41%
+  24  Nbry_MZ196074       8.22%    failed      0.40%
+  25  Nbry_MZ196075       8.41%    failed      0.03%
+  26  Nbry_MZ196076       9.28%    failed      0.34%
+  27  Nbry_MZ196767      12.44%    failed      0.03%
+  28  Nbry_MZ196772      11.51%    passed      5.45%
+  29  Nbry_MZ196776      11.22%    failed      3.36%
+  30  Nbry_MZ196778      11.21%    failed      2.57%
+  31  Nbry_MZ196811      11.57%    passed      9.08%
+  32  Nbry_MZ196818      10.28%    failed      0.53%
+  33  Nbry_MZ196820      23.71%    passed      5.75%
+  34  Nbry_MZ196822      11.73%    failed      0.01%
+  35  Nbry_MZ196823      12.13%    failed      0.31%
+  36  Nbry_MZ196824      11.99%    failed      0.11%
+  37  Nbry_MZ196825      11.88%    failed      0.12%
+  38  Nbry_MZ196826      12.03%    failed      0.00%
+  39  Nbry_MZ196827      11.87%    failed      0.01%
+  40  Nbry_MZ196830      11.87%    failed      1.44%
+  41  Nbry_MZ196831      11.84%    failed      0.21%
+  42  Nbry_MZ196832      11.25%    failed      3.28%
+  43  Nbry_MZ196833      10.83%    passed      6.93%
+  44  Nbry_MZ196834      11.43%    passed      6.72%
+  45  Nbry_MZ197308      11.51%    failed      0.03%
+  46  Nbry_MZ197309      11.41%    failed      0.23%
+  47  Nbry_MZ198332      11.45%    passed     18.34%
+  48  Nbry_MZ198353      12.64%    passed     82.89%
+  49  Nbry_MZ198354      12.37%    passed     51.94%
+  50  Nbry_MZ198577      12.07%    passed     39.46%
+  51  Nbry_MZ198578      12.02%    passed     73.67%
+  52  Nbry_MZ198586      12.33%    failed      0.25%
+  53  Nbry_MZ198587      12.16%    failed      0.06%
+  54  Nbry_MZ198592      10.21%    failed      0.00%
+  55  Nbry_MZ198593      11.86%    failed      0.14%
+  56  Nbry_MZ198594      12.15%    failed      0.02%
+  57  Nbry_MZ198595      11.03%    failed      0.18%
+  58  Nbry_MZ200715      11.83%    failed      0.06%
+  59  Nbry_MZ200723      12.14%    failed      0.53%
+  60  Nbry_MZ200724      11.69%    failed      0.25%
+  61  Nbry_MZ200726      12.14%    failed      1.47%
+  62  Nbry_MZ200728      11.78%    failed      0.01%
+  63  Nbry_MZ200730      11.35%    passed      6.85%
+  64  Nbry_MZ200733      11.92%    failed      4.49%
+  65  Nbry_MZ202495      14.10%    passed      6.91%
+  66  Nbry_MZ202499      16.37%    passed     26.03%
+  67  Nbry_MZ202511      30.41%    failed      2.67%
+  68  Nbry_MZ202513      34.41%    failed      4.98%
+  69  Nbry_MZ202520      18.99%    passed     93.76%
+  70  Nlep_MZ195266_rb   15.29%    failed      0.00%
+  71  Nlep_MZ195270_rb   15.61%    failed      0.00%
+  72  Nlep_MZ195273_rb   15.60%    failed      0.00%
+  73  Nlep_MZ195274_rb   15.04%    failed      0.00%
+  74  Nlep_MZ202458_rb   15.40%    failed      0.00%
+  75  Nlep_MZ202459_rb   15.58%    failed      0.00%
+  76  Nlep_MZ202461_rb   15.58%    failed      0.00%
+  77  Nlep_MZ202463_rb   15.54%    failed      0.00%
+  78  Nlep_MZ202472_rb   15.47%    failed      0.00%
+  79  Nlep_MZ202483_rb   15.56%    failed      0.00%
+  80  Nlep_MZ202514_rb   48.70%    failed      0.00%
+  81  Nlep_MZ202515_rb   33.24%    failed      0.00%
+  82  Nlep_MZ202516_rb   34.20%    failed      0.00%
+  83  Nlep_MZ202517_rb   30.11%    failed      0.00%
+  84  Nlep_MZ215580_rb   30.14%    failed      0.00%
+  85  Nlep_MZ215584_rb   24.38%    failed      0.00%
+  86  Nlep_MZ215585_rb   24.68%    failed      0.00%
+  87  Nlep_MZ215586_rb   24.02%    failed      0.00%
+  88  Nlep_MZ215588_rb   19.82%    failed      0.00%
+  89  Nlep_MZ215590_rb   37.91%    failed      0.00%
+  90  Nlep_MZ215603_rb   15.95%    failed      0.00%
+  91  Nlep_MZ215604_rb   42.59%    failed      0.00%
+  92  Nlep_MZ215605_rb   15.63%    failed      0.00%
+  93  Nlep_MZ215606_rb   36.58%    failed      0.00%
+  94  Nlep_MZ215607_rb   32.98%    failed      0.00%
+  95  Nlep_MZ215608_rb   21.92%    failed      0.00%
+  96  Nlep_MZ215785_rb   36.43%    failed      0.00%
+****  TOTAL              15.67%  79 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: minimal branch length is reduced to 0.000000444816 for long alignment
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 2.671 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 329388)...
+ERROR: For your convenience alignment with variable sites printed to Neo96_iqtree_SNPs.varsites.phy
+ERROR: Invalid use of +ASC because of 2227 invariant sites in the alignment
+
+******************************************************
+CHECKPOINT: Resuming analysis from Neo96_iqtree_SNPs.ckp.gz
+
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    rosalindf (AVX2, FMA3, 2011 GB RAM)
+Command: iqtree -s Neo96_iqtree_SNPs.varsites.phy -pre Neo96_iqtree_SNPs -nt 8 -bb 1000 -m HKY+ASC -con
+Seed:    785432 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Mar 22 08:50:54 2022
+Kernel:  AVX+FMA - 8 threads (256 CPU cores detected)
+
+WARNING: Command-line argument `Neo96_iqtree_SNPs.varsites.phy` differs from checkpoint `Neo96_SNPs4phylo.min4.phy`
+WARNING: Command-line differs from checkpoint!
+Reading alignment file Neo96_iqtree_SNPs.varsites.phy ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 96 sequences with 222585 columns, 219404 distinct patterns
+216507 parsimony-informative, 6078 singleton sites, 0 constant sites
+                  Gap/Ambiguity  Composition  p-value
+   1  Nbry_MZ195912      11.20%    failed      0.34%
+   2  Nbry_MZ195913      11.41%    failed      0.05%
+   3  Nbry_MZ195914      11.39%    failed      0.18%
+   4  Nbry_MZ195915      11.52%    failed      0.29%
+   5  Nbry_MZ195916      10.14%    failed      0.04%
+   6  Nbry_MZ195930      10.09%    failed      0.12%
+   7  Nbry_MZ195931       9.41%    failed      0.22%
+   8  Nbry_MZ195932      10.10%    failed      0.24%
+   9  Nbry_MZ195933      10.03%    failed      0.03%
+  10  Nbry_MZ195934       9.87%    failed      0.02%
+  11  Nbry_MZ195935      11.53%    failed      2.12%
+  12  Nbry_MZ195967       9.91%    failed      1.49%
+  13  Nbry_MZ195968      10.14%    passed     10.71%
+  14  Nbry_MZ195969      10.18%    failed      1.83%
+  15  Nbry_MZ195970      10.32%    failed      0.29%
+  16  Nbry_MZ195972      10.52%    failed      0.62%
+  17  Nbry_MZ195974      10.17%    failed      1.64%
+  18  Nbry_MZ195975      10.20%    passed      5.28%
+  19  Nbry_MZ195976      10.05%    failed      2.24%
+  20  Nbry_MZ195977      10.54%    passed      7.47%
+  21  Nbry_MZ195978      10.25%    failed      1.74%
+  22  Nbry_MZ195979       9.95%    failed      1.05%
+  23  Nbry_MZ195980      10.29%    passed     13.75%
+  24  Nbry_MZ196074       8.04%    failed      0.30%
+  25  Nbry_MZ196075       8.24%    failed      0.02%
+  26  Nbry_MZ196076       9.09%    failed      0.28%
+  27  Nbry_MZ196767      12.23%    failed      0.02%
+  28  Nbry_MZ196772      11.34%    failed      4.45%
+  29  Nbry_MZ196776      11.04%    failed      2.89%
+  30  Nbry_MZ196778      11.02%    failed      2.43%
+  31  Nbry_MZ196811      11.40%    passed      8.55%
+  32  Nbry_MZ196818      10.08%    failed      0.38%
+  33  Nbry_MZ196820      23.65%    passed      6.29%
+  34  Nbry_MZ196822      11.51%    failed      0.01%
+  35  Nbry_MZ196823      11.94%    failed      0.23%
+  36  Nbry_MZ196824      11.80%    failed      0.09%
+  37  Nbry_MZ196825      11.67%    failed      0.10%
+  38  Nbry_MZ196826      11.83%    failed      0.00%
+  39  Nbry_MZ196827      11.67%    failed      0.01%
+  40  Nbry_MZ196830      11.67%    failed      1.09%
+  41  Nbry_MZ196831      11.66%    failed      0.14%
+  42  Nbry_MZ196832      11.05%    failed      3.57%
+  43  Nbry_MZ196833      10.65%    passed      5.51%
+  44  Nbry_MZ196834      11.20%    passed      7.99%
+  45  Nbry_MZ197308      11.34%    failed      0.02%
+  46  Nbry_MZ197309      11.26%    failed      0.15%
+  47  Nbry_MZ198332      11.26%    passed     18.66%
+  48  Nbry_MZ198353      12.45%    passed     81.42%
+  49  Nbry_MZ198354      12.18%    passed     48.30%
+  50  Nbry_MZ198577      11.91%    passed     43.30%
+  51  Nbry_MZ198578      11.81%    passed     71.82%
+  52  Nbry_MZ198586      12.13%    failed      0.21%
+  53  Nbry_MZ198587      11.98%    failed      0.05%
+  54  Nbry_MZ198592      10.00%    failed      0.00%
+  55  Nbry_MZ198593      11.66%    failed      0.13%
+  56  Nbry_MZ198594      11.96%    failed      0.02%
+  57  Nbry_MZ198595      10.84%    failed      0.15%
+  58  Nbry_MZ200715      11.65%    failed      0.05%
+  59  Nbry_MZ200723      11.94%    failed      0.43%
+  60  Nbry_MZ200724      11.52%    failed      0.18%
+  61  Nbry_MZ200726      11.98%    failed      1.34%
+  62  Nbry_MZ200728      11.57%    failed      0.00%
+  63  Nbry_MZ200730      11.17%    passed      6.21%
+  64  Nbry_MZ200733      11.72%    failed      3.88%
+  65  Nbry_MZ202495      13.95%    passed      5.89%
+  66  Nbry_MZ202499      16.26%    passed     23.82%
+  67  Nbry_MZ202511      30.39%    failed      2.77%
+  68  Nbry_MZ202513      34.42%    passed      6.35%
+  69  Nbry_MZ202520      18.89%    passed     93.37%
+  70  Nlep_MZ195266_rb   15.13%    failed      0.00%
+  71  Nlep_MZ195270_rb   15.46%    failed      0.00%
+  72  Nlep_MZ195273_rb   15.43%    failed      0.00%
+  73  Nlep_MZ195274_rb   14.88%    failed      0.00%
+  74  Nlep_MZ202458_rb   15.25%    failed      0.00%
+  75  Nlep_MZ202459_rb   15.43%    failed      0.00%
+  76  Nlep_MZ202461_rb   15.44%    failed      0.00%
+  77  Nlep_MZ202463_rb   15.36%    failed      0.00%
+  78  Nlep_MZ202472_rb   15.30%    failed      0.00%
+  79  Nlep_MZ202483_rb   15.39%    failed      0.00%
+  80  Nlep_MZ202514_rb   48.75%    failed      0.00%
+  81  Nlep_MZ202515_rb   33.21%    failed      0.00%
+  82  Nlep_MZ202516_rb   34.18%    failed      0.00%
+  83  Nlep_MZ202517_rb   30.08%    failed      0.00%
+  84  Nlep_MZ215580_rb   30.11%    failed      0.00%
+  85  Nlep_MZ215584_rb   24.32%    failed      0.00%
+  86  Nlep_MZ215585_rb   24.61%    failed      0.00%
+  87  Nlep_MZ215586_rb   23.92%    failed      0.00%
+  88  Nlep_MZ215588_rb   19.71%    failed      0.00%
+  89  Nlep_MZ215590_rb   37.91%    failed      0.00%
+  90  Nlep_MZ215603_rb   15.79%    failed      0.00%
+  91  Nlep_MZ215604_rb   42.61%    failed      0.00%
+  92  Nlep_MZ215605_rb   15.47%    failed      0.00%
+  93  Nlep_MZ215606_rb   36.55%    failed      0.00%
+  94  Nlep_MZ215607_rb   32.94%    failed      0.00%
+  95  Nlep_MZ215608_rb   21.81%    failed      0.00%
+  96  Nlep_MZ215785_rb   36.44%    failed      0.00%
+****  TOTAL              15.52%  78 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: minimal branch length is reduced to 0.000000449267 for long alignment
+
+CHECKPOINT: Initial tree restored
+Generating 1000 samples for ultrafast bootstrap (seed: 785432)...
+
+NOTE: 1519 MB RAM (1 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -4719571.293
+2. Current log-likelihood: -4489265.585
+3. Current log-likelihood: -4441595.791
+4. Current log-likelihood: -4401521.962
+5. Current log-likelihood: -4353220.162
+6. Current log-likelihood: -4316329.943
+7. Current log-likelihood: -4290563.714
+8. Current log-likelihood: -4241996.206
+9. Current log-likelihood: -4237315.950
+10. Current log-likelihood: -4237306.021
+Optimal log-likelihood: -4237305.950
+Rate parameters:  A-C: 1.00000  A-G: 5.88958  A-T: 1.00000  C-G: 1.00000  C-T: 5.88958  G-T: 1.00000
+Base frequencies:  A: 0.233  C: 0.270  G: 0.262  T: 0.235
+Parameters optimization took 10 rounds (13.601 sec)
+Computing ML distances based on estimated model parameters... 82.878 sec
+Computing BIONJ tree...
+0.034 seconds
+Log-likelihood of BIONJ tree: -4260123.372
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 240.566 second
+Computing log-likelihood of 98 initial trees ... 41.969 seconds
+Current best score: -4236161.507
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -4235700.407
+Iteration 10 / LogL: -4235782.068 / Time: 0h:6m:0s
+Iteration 20 / LogL: -4236201.366 / Time: 0h:6m:45s
+Finish initializing candidate tree set (19)
+Current best tree score: -4235700.407 / CPU time: 372.140
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -4236543.000 / Time: 0h:7m:21s (0h:17m:59s left)
+Iteration 40 / LogL: -4236414.132 / Time: 0h:7m:54s (0h:12m:22s left)
+Iteration 50 / LogL: -4235761.014 / Time: 0h:8m:30s (0h:8m:51s left)
+Log-likelihood cutoff on original alignment: -4236579.343
+Iteration 60 / LogL: -4237819.764 / Time: 0h:9m:6s (0h:6m:19s left)
+Iteration 70 / LogL: -4236643.259 / Time: 0h:9m:41s (0h:4m:20s left)
+Iteration 80 / LogL: -4236366.678 / Time: 0h:10m:14s (0h:2m:43s left)
+Iteration 90 / LogL: -4236380.168 / Time: 0h:10m:47s (0h:1m:20s left)
+Iteration 100 / LogL: -4235725.161 / Time: 0h:11m:21s (0h:0m:6s left)
+Log-likelihood cutoff on original alignment: -4236575.525
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.995
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:11m:29s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -4235700.407
+Optimal log-likelihood: -4235700.406
+Rate parameters:  A-C: 1.00000  A-G: 5.89128  A-T: 1.00000  C-G: 1.00000  C-T: 5.89128  G-T: 1.00000
+Base frequencies:  A: 0.233  C: 0.270  G: 0.262  T: 0.235
+Parameters optimization took 1 rounds (0.730 sec)
+BEST SCORE FOUND : -4235700.406
+Creating bootstrap support values...
+Split supports printed to NEXUS file Neo96_iqtree_SNPs.splits.nex
+Total tree length: 4.744
+
+Total number of iterations: 102
+CPU time used for tree search: 3914.283 sec (1h:5m:14s)
+Wall-clock time used for tree search: 656.012 sec (0h:10m:56s)
+Total CPU time used: 4140.778 sec (1h:9m:0s)
+Total wall-clock time used: 690.293 sec (0h:11m:30s)
+
+Computing bootstrap consensus tree...
+Reading input file Neo96_iqtree_SNPs.splits.nex...
+96 taxa and 380 splits.
+Consensus tree written to Neo96_iqtree_SNPs.contree
+Reading input trees file Neo96_iqtree_SNPs.contree
+Log-likelihood of consensus tree: -4235599.171
+
+Analysis results written to: 
+  IQ-TREE report:                Neo96_iqtree_SNPs.iqtree
+  Maximum-likelihood tree:       Neo96_iqtree_SNPs.treefile
+  Likelihood distances:          Neo96_iqtree_SNPs.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          Neo96_iqtree_SNPs.splits.nex
+  Consensus tree:                Neo96_iqtree_SNPs.contree
+  Screen log file:               Neo96_iqtree_SNPs.log
+
+Date and Time: Tue Mar 22 09:02:30 2022
