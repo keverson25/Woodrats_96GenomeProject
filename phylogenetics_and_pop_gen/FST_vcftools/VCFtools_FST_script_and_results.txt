@@ -1,0 +1,17 @@
+### Weir pairwise FST (VCFtools; global estimates reported in log files)
+
+vcftools --vcf Neo96_MergedAutosomes.vcf --weir-fst-pop lepida.txt --weir-fst-pop allBryanti.txt --out Neo96_MergedAutosomes_lep_allBry_FST
+
+# lepida vs. all bryanti mean FST: 0.63366
+
+vcftools --vcf Neo96_MergedAutosomes.vcf --weir-fst-pop lepida.txt --weir-fst-pop mismatchedBry.txt --out Neo96_MergedAutosomes_lep_mismatchedBry_FST
+
+# lepida vs. mismatched bryanti mean FST: 0.62209
+
+vcftools --vcf Neo96_MergedAutosomes.vcf --weir-fst-pop bryanti.txt --weir-fst-pop lepida.txt --out Neo96_MergedAutosomes_bry_lepida_FST
+
+# lepida vs. non-mismatched bryanti mean FST: 0.62556
+
+vcftools --vcf Neo96_MergedAutosomes.vcf --weir-fst-pop bryanti.txt --weir-fst-pop mismatchedBry.txt --out Neo96_MergedAutosomes_bry_mismatchedBry_FST
+
+# mismatched bryanti vs. non-mismatched bryanti mean FST: 0.05419
